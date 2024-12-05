@@ -14,8 +14,6 @@ This React.js application allows users to upload CSV files, visualize data with 
 
 ## Table of Contents
 
-
-
 2. [Technologies Used]
 
    React.js: Frontend framework.
@@ -55,7 +53,7 @@ Node.js (version 14 or later)
 2. Clone the Repository
    Clone the project repository from GitHub or any other version control system:
 
-git clone <repository-url>
+git clone https://github.com/sanjaycoder01/AIM-ASSESSMENT
 
 3. Navigate to the Project Directory
    Move into the project folder:
@@ -72,3 +70,19 @@ git clone <repository-url>
 
 The application will be available at:
 http://localhost:3000
+
+6. Deployment Instructions
+   i)First Do the installtion Process and then
+   ii)Build the Project for Production
+   To prepare the app for deployment, build it with:
+   npm run build
+   6. Deploy the Build
+      You can deploy your app using any hosting provider such as:
+
+Netlify:
+Push your repository to GitHub.
+Connect your repository to Netlify for continuous deployment.
+
+Vercel:
+Push your repository to GitHub.
+Connect your repository to Vercel to deploy automatically.
