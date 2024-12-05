@@ -14,6 +14,7 @@ This React.js application allows users to upload CSV files, visualize data with 
 
 ## Table of Contents
 
+<<<<<<< HEAD
 2. [Technologies Used]
 
    React.js: Frontend framework.
@@ -38,6 +39,16 @@ This React.js application allows users to upload CSV files, visualize data with 
    │ ├── store.js
    ├── App.js
    ├── index.js
+=======
+
+ [Technologies Used]
+
+  i) React.js: Frontend framework.
+  ii) Redux: State management.
+   iii) Tailwind CSS: Responsive and modern styling.
+  iv) react-google-charts: Chart rendering.
+  v) Papa Parse: CSV parsing.
+>>>>>>> 5ebfa223395c16060c0243c774b8eaad7fcb56e9
 
 ---
 
@@ -70,6 +81,7 @@ git clone https://github.com/sanjaycoder01/AIM-ASSESSMENT
 
 The application will be available at:
 http://localhost:3000
+<<<<<<< HEAD
 
 6. Deployment Instructions
    i)First Do the installtion Process and then
@@ -78,6 +90,15 @@ http://localhost:3000
    npm run build
    6. Deploy the Build
       You can deploy your app using any hosting provider such as:
+=======
+6. Deployment Instructions
+ i)First Do the installtion Process and then
+ ii)Build the Project for Production
+  To prepare the app for deployment, build it with:
+   npm run build
+   6. Deploy the Build
+You can deploy your app using any hosting provider such as:
+>>>>>>> 5ebfa223395c16060c0243c774b8eaad7fcb56e9
 
 Netlify:
 Push your repository to GitHub.
