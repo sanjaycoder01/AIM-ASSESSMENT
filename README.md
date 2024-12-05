@@ -68,7 +68,7 @@ git clone https://github.com/sanjaycoder01/AIM-ASSESSMENT
 
 3. Navigate to the Project Directory
    Move into the project folder:
-   cd <project-directory-name>
+   cd project-name
 4. Install Dependencies
    Install all the required packages:
 
