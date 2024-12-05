@@ -25,21 +25,21 @@ This React.js application allows users to upload CSV files, visualize data with 
    Papa Parse: CSV parsing.
 
 3. [Folder Structure]
-   src/
-   ├── components/
-   │ ├── ChartRenderer.js
-   │ ├── ChartSelector.js
-   │ ├── FileUpload.js
-   │ ├── Shimmer.js
-   ├── pages/
-   │ ├── ChartPage.js
-   │ ├── DataUploadPage.js
-   │
-   ├── redux/
-   │ ├── dataSlice.js
-   │ ├── store.js
-   ├── App.js
-   ├── index.js
+src/
+  components/
+    ChartRenderer.js
+    ChartSelector.js
+    FileUpload.js
+    Shimmer.js
+  pages/
+    ChartPage.js
+    DataUploadPage.js
+  redux/
+    dataSlice.js
+    store.js
+  App.js
+  index.js
+
 
 ---
 
