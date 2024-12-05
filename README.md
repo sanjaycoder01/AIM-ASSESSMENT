@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# CSV Chart App Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React.js application allows users to upload CSV files, visualize data with dynamic charts (powered by Google Charts), and download the processed CSV files. The app uses Tailwind CSS for styling and Redux for state management.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Upload CSV files for data processing.
+- Visualize data using Google Charts.
+- Download the processed CSV file.
+- Displays a "No data available to download" message dynamically when required.
+- Fully responsive UI with modern design.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. [Installation]
+   npx create-react-app csv-chart-app
+   cd csv-chart-app
+   npm install papaparse react-google-charts redux react-redux @reduxjs/toolkit tailwindcss postcss autoprefixer
+   npx tailwindcss init
 
-### `npm test`
+2. [Technologies Used]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   React.js: Frontend framework.
+   Redux: State management.
+   Tailwind CSS: Responsive and modern styling.
+   react-google-charts: Chart rendering.
+   Papa Parse: CSV parsing.
 
-### `npm run build`
+3. [Folder Structure]
+   src/
+   ├── components/
+   │ ├── ChartRenderer.js
+   │ ├── ChartSelector.js
+   │ ├── FileUpload.js
+   │ ├── Shimmer.js
+   ├── pages/
+   │ ├── ChartPage.js
+   │ ├── DataUploadPage.js
+   │
+   ├── redux/
+   │ ├── dataSlice.js
+   │ ├── store.js
+   ├── App.js
+   ├── index.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to set up the project locally:
 
-### `npm run eject`
+1. Prerequisites
+   Ensure you have the following installed on your system:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Node.js (version 14 or later)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Clone the Repository
+   Clone the project repository from GitHub or any other version control system:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git clone <repository-url>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Navigate to the Project Directory
+   Move into the project folder:
+   cd <project-directory-name>
+4. Install Dependencies
+   Install all the required packages:
 
-## Learn More
+   npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Start the Development Server
+   Run the project locally:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   npm start
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application will be available at:
+http://localhost:3000
