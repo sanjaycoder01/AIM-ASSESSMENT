@@ -139,7 +139,7 @@ function DataUploadPage() {
             </h2>
             <ul className="list-disc list-inside text-blue-800 space-y-1 text-sm sm:text-base">
               <li className="">File must be in CSV format</li>
-              <li className="">Maximum file size: 10MB</li>
+              <li className="">No empty rows or columns allowed</li>
               <li className="">First row should contain column headers</li>
               <li className="">Data should be properly formatted in columns</li>
             </ul>
