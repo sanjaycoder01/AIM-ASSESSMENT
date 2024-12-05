@@ -55,7 +55,7 @@ Node.js (version 14 or later)
 2. Clone the Repository
    Clone the project repository from GitHub or any other version control system:
 
-git clone <repository-url>
+git clone https://github.com/sanjaycoder01/AIM-ASSESSMENT
 
 3. Navigate to the Project Directory
    Move into the project folder:
