@@ -14,11 +14,7 @@ This React.js application allows users to upload CSV files, visualize data with 
 
 ## Table of Contents
 
-1. [Installation]
-   npx create-react-app csv-chart-app
-   cd csv-chart-app
-   npm install papaparse react-google-charts redux react-redux @reduxjs/toolkit tailwindcss postcss autoprefixer
-   npx tailwindcss init
+
 
 2. [Technologies Used]
 
