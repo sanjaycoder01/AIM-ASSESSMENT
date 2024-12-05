@@ -18,28 +18,11 @@ This React.js application allows users to upload CSV files, visualize data with 
 
 2. [Technologies Used]
 
-   React.js: Frontend framework.
-   Redux: State management.
-   Tailwind CSS: Responsive and modern styling.
-   react-google-charts: Chart rendering.
-   Papa Parse: CSV parsing.
-
-3. [Folder Structure]
-src/                                                                                                                                                                                  
-  components/
-    ChartRenderer.js
-    ChartSelector.js
-    FileUpload.js
-    Shimmer.js
-  pages/
-    ChartPage.js
-    DataUploadPage.js
-  redux/
-    dataSlice.js
-    store.js
-  App.js
-  index.js
-
+  i) React.js: Frontend framework.
+  ii) Redux: State management.
+   iii) Tailwind CSS: Responsive and modern styling.
+  iv) react-google-charts: Chart rendering.
+  v) Papa Parse: CSV parsing.
 
 ---
 
