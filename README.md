@@ -21,7 +21,7 @@ This React.js application allows users to upload CSV files, visualize data with 
    iii) Tailwind CSS: Responsive and modern styling.
   iv) react-google-charts: Chart rendering.
   v) Papa Parse: CSV parsing.
->>>>>>> 5ebfa223395c16060c0243c774b8eaad7fcb56e9
+
 
 ---
 
@@ -56,14 +56,6 @@ The application will be available at:
 http://localhost:3000
 
 
-6. Deployment Instructions
-   i)First Do the installtion Process and then
-   ii)Build the Project for Production
-   To prepare the app for deployment, build it with:
-   npm run build
-   6. Deploy the Build
-      You can deploy your app using any hosting provider such as:
-=======
 6. Deployment Instructions
  i)First Do the installtion Process and then
  ii)Build the Project for Production
